@@ -1,3 +1,9 @@
+/*************************************/
+/*            Oscar Lomas            */
+/*              CSC 401              */
+/*            Spring 2018            */
+/*          Final Assignment         */
+/*************************************/
 import java.util.ArrayList;
 import java.util.Random;
 class Graph{
@@ -16,7 +22,8 @@ class Graph{
     connectVertices();
     printVertices();
     printEdges();
-  }   
+  }
+  // create vertices
   private void createVertices(int amt){
     V = new ArrayList<Vertex>();
     int i = 0;
@@ -89,7 +96,7 @@ class Graph{
     System.out.println(")");    
   }
   public void printEdges(){
-    System.out.print("Vertices: (");
+    System.out.print("Edges: (");
     for(int i = 0; i < E.size(); i++){
       Edge e = E.get(i);
       if(i < E.size()-1) {
