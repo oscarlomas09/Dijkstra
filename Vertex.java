@@ -1,3 +1,9 @@
+/*************************************/
+/*            Oscar Lomas            */
+/*              CSC 401              */
+/*            Spring 2018            */
+/*          Final Assignment         */
+/*************************************/
 public class Vertex{
   public char id;
   public int distance;
