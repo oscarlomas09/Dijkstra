@@ -1,3 +1,9 @@
+/*************************************/
+/*            Oscar Lomas            */
+/*              CSC 401              */
+/*            Spring 2018            */
+/*          Final Assignment         */
+/*************************************/
 public class Edge{
   public Vertex v_s;
   public Vertex v_d;
