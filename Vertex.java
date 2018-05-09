@@ -5,4 +5,7 @@ public class Vertex{
     id = _id;
     distance = Integer.MAX_VALUE;
   }
+  public String toString(){
+    return Character.toString(id);
+  }
 }

@@ -13,4 +13,7 @@ public class Edge{
   public int getWeight(){
     return weight;
   }
+  public String toString(){
+    return "{" + Character.toString(v_s.id) + ", " + Character.toString(v_d.id) + ", " + weight + "}";
+  }
 }

@@ -3,7 +3,6 @@ import java.util.Random;
 class Graph{
   private ArrayList<Vertex> V;
   private ArrayList<Edge> E;
-  private boolean directed = false;
   private boolean connected = false;
   Graph(int v_amt){   
     createVertices(v_amt);
@@ -11,8 +10,7 @@ class Graph{
     printVertices();
     printEdges();
   }
-  Graph(int v_amt, boolean _directed, boolean _connected){
-    directed = _directed;
+  Graph(int v_amt, boolean _connected){
     connected = _connected;
     createVertices(v_amt);
     connectVertices();
@@ -21,12 +19,12 @@ class Graph{
   }   
   private void createVertices(int amt){
     V = new ArrayList<Vertex>();
-    int margin = 20;
     int i = 0;
     while(i < amt){
       char letter = (char) (i+97);
       Vertex v = new Vertex(letter);
       V.add(v);
+      i++;
     }
   }
   private void connectVertices(){
