@@ -1,2 +1,0 @@
-# Dijkstra
-Dijkstra java
